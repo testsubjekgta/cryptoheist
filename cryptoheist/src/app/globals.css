@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+	/* example primary - keep your existing token if different */
+	--font-geist-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial;
+	--font-geist-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+		"Roboto Mono";
+}
+
+/* Tailwind inline theme (using newest Tailwind inline config style) */
+@theme inline {
+	/* colors & fonts */
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-primary: var(--primary);
+	--font-pp: var(--font-geist-sans);
+	--font-dd: var(--font-geist-mono);
+
+	--breakpoint-3xl: 1921px;
+	--breakpoint-4xl: 2560px;
+
+	/* if you want any extra maxWidth tokens you can add here */
+	/* example (optional):
+  maxWidth: {
+    '8xl': '1920px',
+    '9xl': '2560px'
+  }
+  */
+}
+
+/* dark mode root overrides (you already had this) */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+/* base styles */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* animated underline */
+.animated-underline {
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.3s ease-out;
+}
+
+.group:hover .animated-underline {
+	transform: scaleX(1);
+}
+
+/* custom cursor */
+#custom-cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 12px;
+	height: 12px;
+	background-color: white;
+	border-radius: 50%;
+	pointer-events: none;
+	z-index: 9999;
+	mix-blend-mode: difference;
+}
