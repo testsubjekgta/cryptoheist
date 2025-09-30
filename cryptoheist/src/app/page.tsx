@@ -510,7 +510,7 @@ export default function Page() {
 
         {/* widened container, removed duplicate px */}
         <div className="relative container mx-auto z-10 max-w-6xl lg:max-w-7xl 3xl:max-w-[1400px] 4xl:max-w-[1800px] px-6 lg:px-12 xl:px-20 pt-16">
-          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+          <div className="flex flex-col items-center md:items-start text-left sm:text-centert">
             <div className="hero-logo pt-16">
               <Image
                 src="/logo.png"
