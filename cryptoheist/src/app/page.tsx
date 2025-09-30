@@ -500,69 +500,69 @@ export default function Page() {
       </header>
 
       {/* ---------- HERO ---------- */}
-      <section
-        id="home"
-        className="relative min-h-screen flex items-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/background.png')" }}
-      >
-        {/* dark overlay */}
-        <div className="absolute inset-0 bg-black/50"></div>
+     <section
+  id="home"
+  className="relative min-h-screen flex items-center bg-cover bg-center"
+  style={{ backgroundImage: "url('/background.png')" }}
+>
+  {/* dark overlay */}
+  <div className="absolute inset-0 bg-black/50"></div>
 
-        {/* widened container, removed duplicate px */}
-        <div className="relative container mx-auto z-10 max-w-6xl lg:max-w-7xl 3xl:max-w-[1400px] 4xl:max-w-[1800px] px-6 lg:px-12 xl:px-20 pt-16">
-          <div className="flex flex-col items-center md:items-start text-left sm:text-centert">
-            <div className="hero-logo pt-16">
-              <Image
-                src="/logo.png"
-                alt="Crypto Heist Logo"
-                width={160}
-                height={160}
-                className="h-60 w-auto 3xl:h-80 4xl:h-96"
-              />
-            </div>
+  {/* widened container */}
+  <div className="relative container mx-auto z-10 max-w-6xl lg:max-w-7xl 3xl:max-w-[1400px] 4xl:max-w-[1800px] px-6 lg:px-12 xl:px-20 pt-16">
+    <div className="flex flex-col items-center md:items-start text-center md:text-left">
+      <div className="hero-logo pt-16">
+        <Image
+          src="/logo.png"
+          alt="Crypto Heist Logo"
+          width={160}
+          height={160}
+          className="h-60 w-auto 3xl:h-80 4xl:h-96"
+        />
+      </div>
 
-            <p className="hero-p2e-tag bg-black border border-white/50 text-white font-bold tracking-widest text-lg font-pp px-3 py-1 rounded mb-4 3xl:text-xl 4xl:text-2xl">
-              PLAY TO EARN
-            </p>
+      <p className="hero-p2e-tag bg-black border border-white/50 text-white font-bold tracking-widest text-lg font-pp px-3 py-1 rounded mb-4 3xl:text-xl 4xl:text-2xl">
+        PLAY TO EARN
+      </p>
 
-            <img
-              className="hero-title w-[100px] md:w-[200px] lg:w-[330px] xl:w-[430px] 3xl:w-[530px] 4xl:w-[700px] mx-auto md:mx-0"
-              src="/title.png"
-              alt="Crypto Heist Title"
-            />
+      <img
+        className="hero-title w-[100px] md:w-[200px] lg:w-[330px] xl:w-[430px] 3xl:w-[530px] 4xl:w-[700px] mx-auto md:mx-0"
+        src="/title.png"
+        alt="Crypto Heist Title"
+      />
 
-            <p className="hero-tagline font-pp text-lg md:text-xl text-gray-300 mt-4 mb-8 tracking-wider 3xl:text-3xl 4xl:text-4xl">
-              <span className="text-yellow-500">1 </span>TOKEN,{" "}
-              <span className="text-yellow-500">1</span> GAME, EPIC{" "}
-              <span className="text-yellow-500">HEISTS</span>
-            </p>
+      <p className="hero-tagline font-pp text-lg md:text-xl text-gray-300 mt-4 mb-8 tracking-wider 3xl:text-3xl 4xl:text-4xl">
+        <span className="text-yellow-500">1 </span>TOKEN,{" "}
+        <span className="text-yellow-500">1</span> GAME, EPIC{" "}
+        <span className="text-yellow-500">HEISTS</span>
+      </p>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-              <a
-                href={buyNowLink.href}
-                className="hero-buttons w-full sm:w-auto bg-primary text-white border-white border-2 font-pp font-bold px-8 py-3 rounded-md hover:text-gray-300 hover:border-gray-300 transition-colors duration-300 text-base text-center 3xl:px-12 3xl:py-5 3xl:text-lg 4xl:px-16 4xl:py-6 4xl:text-2xl"
-              >
-                {buyNowLink.label}
-              </a>
-              <a
-                href={downloadLink.href}
-                className="hero-buttons w-full sm:w-auto bg-white/10 backdrop-blur-sm text-white border-white border-2 font-pp font-bold px-8 py-3 rounded-md hover:bg-white hover:text-black transition-colors duration-300 text-base text-center 3xl:px-12 3xl:py-5 3xl:text-lg 4xl:px-16 4xl:py-6 4xl:text-2xl"
-              >
-                {downloadLink.label}
-              </a>
-            </div>
+      <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+        <a
+          href={buyNowLink.href}
+          className="hero-buttons w-full sm:w-auto bg-primary text-white border-white border-2 font-pp font-bold px-8 py-3 rounded-md hover:text-gray-300 hover:border-gray-300 transition-colors duration-300 text-base text-center 3xl:px-12 3xl:py-5 3xl:text-lg 4xl:px-16 4xl:py-6 4xl:text-2xl"
+        >
+          {buyNowLink.label}
+        </a>
+        <a
+          href={downloadLink.href}
+          className="hero-buttons w-full sm:w-auto bg-white/10 backdrop-blur-sm text-white border-white border-2 font-pp font-bold px-8 py-3 rounded-md hover:bg-white hover:text-black transition-colors duration-300 text-base text-center 3xl:px-12 3xl:py-5 3xl:text-lg 4xl:px-16 4xl:py-6 4xl:text-2xl"
+        >
+          {downloadLink.label}
+        </a>
+      </div>
 
-            <div className="hero-add w-full flex flex-col md:justify-start justify-center pb-12">
-              <p className="font-pp text-gray-400 mt-4 gap-4 3xl:text-lg 4xl:text-xl">
-                AVAILABLE ON <span className="text-yellow-500">WINDOWS</span>
-              </p>
-              <p className="md:w-fit w-full bg-black/10 border border-white/50 text-white tracking-widest text-md mt-4 font-pp px-3 py-1 rounded mb-4 3xl:text-lg">
-                CA: COMING SOON
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="hero-add w-full flex flex-col md:justify-start justify-center pb-12">
+        <p className="font-pp text-gray-400 mt-4 gap-4 3xl:text-lg 4xl:text-xl">
+          AVAILABLE ON <span className="text-yellow-500">WINDOWS</span>
+        </p>
+        <p className="md:w-fit w-full bg-black/10 border border-white/50 text-white tracking-widest text-md mt-4 font-pp px-3 py-1 rounded mb-4 3xl:text-lg">
+          CA: COMING SOON
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* ---------- MAIN CONTENT ---------- */}
       <div className="bg-gradient-to-b from-[#1e151c] to-black">
