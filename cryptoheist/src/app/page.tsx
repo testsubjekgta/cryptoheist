@@ -292,7 +292,7 @@ export default function Page() {
     { href: "#about", label: "About" },
     { href: "#trailer", label: "Trailer" }, // Added Trailer to navigation
     { href: "#online", label: "CryptoHeist Online" },
-    { href: "#community", label: "Community" },
+    { href: "https://x.com/i/communities/1972929027343331822", label: "Community" },
     { href: "#market", label: "Marketplace" },
   ];
 
@@ -304,7 +304,7 @@ export default function Page() {
 
   const socialLinks = [
     { href: "https://x.com/cryptoheistsb", icon: X }, // Changed to X icon and placeholder link
-    { href: "#", icon: MessageCircle },
+    { href: "https://x.com/i/communities/1972929027343331822", icon: MessageCircle },
     { href: "https://www.youtube.com/watch?v=UDe0AZYnafg", icon: Youtube },
   ];
 
