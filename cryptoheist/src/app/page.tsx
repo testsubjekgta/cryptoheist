@@ -297,7 +297,7 @@ export default function Page() {
   ];
 
   const otherLinks = [
-    { href: "#whitepaper", label: "Whitepaper" },
+    { href: "https://docs.chsolanabeach-whitepaper.world/", label: "Whitepaper" },
     { href: "/privacy-policy", label: "Privacy Policy" },
     { href: "/terms-of-use", label: "Terms of Use" },
   ];
