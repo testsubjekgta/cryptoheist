@@ -527,7 +527,7 @@ export default function Page() {
             </p>
 
             <img
-              className="hero-title w-[420px] md:w-[520px] lg:w-[680px] xl:w-[760px] 3xl:w-[880px] 4xl:w-[1100px] mx-auto md:mx-0"
+              className="hero-title w-[100px] md:w-[200px] lg:w-[330px] xl:w-[430px] 3xl:w-[530px] 4xl:w-[700px] mx-auto md:mx-0"
               src="/title.png"
               alt="Crypto Heist Title"
             />
