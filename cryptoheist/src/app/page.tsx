@@ -305,7 +305,7 @@ export default function Page() {
   const socialLinks = [
     { href: "https://x.com/cryptoheistsb", icon: X }, // Changed to X icon and placeholder link
     { href: "#", icon: MessageCircle },
-    { href: "https://www.youtube.com/watch?v=UDe0AZY", icon: Youtube },
+    { href: "https://www.youtube.com/watch?v=UDe0AZYnafg", icon: Youtube },
   ];
 
   const onlineFeatures = [
@@ -397,7 +397,7 @@ export default function Page() {
 
   const buyNowLink = { href: "#buy", label: "BUY $HEIST" };
   const downloadLink = { href: "#download", label: "DOWNLOAD NOW" };
-  const trailerVideoId = "UDe0AZY"; // Extracted video ID
+  const trailerVideoId = "UDe0AZYnafg"; // Extracted video ID
   return (
     <main className="bg-black overflow-x-hidden">
       <div id="custom-cursor" className="hidden lg:block"></div>
