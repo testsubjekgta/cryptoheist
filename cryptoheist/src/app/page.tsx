@@ -557,7 +557,7 @@ export default function Page() {
           AVAILABLE ON <span className="text-yellow-500">WINDOWS</span>
         </p>
         <p className="md:w-fit w-full bg-black/10 border border-white/50 text-white tracking-widest text-md mt-4 font-pp px-3 py-1 rounded mb-4 3xl:text-lg">
-          CA: COMING SOON
+          CA: 9z6UjjjTFduCqTXFX2ieEcauxMprnsxTE4aUuW6EvU7N
         </p>
       </div>
     </div>
